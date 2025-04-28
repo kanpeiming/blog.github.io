@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: keep
+theme: maupassant
 
 # 添加这一行，使用hexo s 启动时，会默认使用_config.keep.yml里的配置
 theme_config: _config.keep.yml
@@ -105,4 +105,6 @@ theme_config: _config.keep.yml
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/kanpeiming/kanpeiming.github.io.git
+  branch: main
